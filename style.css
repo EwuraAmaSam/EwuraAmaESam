@@ -1,0 +1,147 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    margin: 0px auto;
+    /* padding: 2px; */
+}
+
+
+.header{
+    display: flex;
+    flex-direction: row;
+    height: 70px;
+    position: fixed;
+    width: 100%; 
+    background-color: black;
+}
+.icon{
+    display: flex;
+    flex: 0.2;
+}
+.menus{
+    display: flex;
+    flex-direction: row;
+    flex: 0.8;
+    justify-content: flex-end;
+}
+.but{
+    width: 200px;
+    height: 50px;
+    margin-left: 20px;
+    margin-right: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    outline: none;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.but:hover{
+    border: 2px white solid;
+
+}
+
+/* Body - a designs */
+.body-a{
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+}
+.side-a{
+    display: flex;
+    flex-direction: column;
+    flex: 0.5;
+    background-image: url("./vecteezy_motherboard-3d-icon-ai-generative_28720512.png");
+    background-size: 21em;
+    background-repeat: no-repeat;
+    margin-left: 100px;
+    margin-top: 100px;
+
+}
+.side-b{
+    display: flex;
+    flex-direction: column;
+    flex: 0.5;
+    padding-right: 50px;
+    
+}
+
+.greetings{
+    align-self: center ;
+    font-size: 50px;
+    margin-top: 120px;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Share Tech Mono', monospace;
+}
+.name{
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Share Tech Mono', monospace;
+    
+}
+
+.body-b{
+    display: flex;
+    /* background-color: white; */
+    height: 400px;
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    flex: 0.5;
+    padding: 50px;
+}
+.profile{
+    display: flex;
+    flex-direction: column;
+    flex: 0.5;
+    background-image: url("./vecteezy_software-programming-and-coding_16390687.png");
+    background-size: 35em;
+    background-repeat: no-repeat;
+    margin-left: 100px;
+    margin-top: -80px;
+
+}
+
+.space{
+    height: 100px;
+}
+
+
+
+/* Footer Design */
+.footer{
+    display: flex;
+    flex-direction: row;
+    /* background-color: rgba(0, 0, 0, 0.669); */
+    height: 200px;
+    justify-content: space-around;
+    border: 4px white solid;
+}
+.f-sections{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 100%;
+    /* justify-content: space-around; */
+    padding-left: 100px;
+}
+h5{
+    font-size: 20px;
+    /* margin-bottom: -1px; */
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Share Tech Mono', monospace;
+    
+} 
+
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 20px;
+
+}
