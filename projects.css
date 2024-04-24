@@ -117,3 +117,9 @@ button{
     color: white;   
 }
 
+.home{
+    border: none;
+    outline: none;
+    align-self: center;
+    margin-top: 20px;
+}

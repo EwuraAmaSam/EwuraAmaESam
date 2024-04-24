@@ -98,3 +98,10 @@ button{
     border: 1px white solid;
     color: white;   
 }
+
+.home{
+    border: none;
+    outline: none;
+    align-self: center;
+    margin-top: 20px;
+}
