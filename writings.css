@@ -72,7 +72,8 @@ body{
 
 .image{
     flex: 0.35;
-    /* background-color: blue; */
+    background-image: url("./politiquil.jpeg");
+    background-size: cover;
 }
 
 .desc{
@@ -91,12 +92,18 @@ body{
 .descc{
     font-size: 15px;
 }
-button{
+.visit{
     width: 200px;
-    height: 30px;
+    height: 50px;
     background-color: black;
     border: 1px white solid;
     color: white;   
+}
+.visit:hover{
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    color: black;   
 }
 
 .home{
@@ -104,4 +111,6 @@ button{
     outline: none;
     align-self: center;
     margin-top: 20px;
+    background-color: black;
+    color: white;
 }
