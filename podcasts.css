@@ -72,7 +72,8 @@ body{
 
 .image{
     flex: 0.35;
-    /* background-color: blue; */
+    background-image: url("./The\ 7MA\ Show.png");
+    background-size: cover;
 }
 
 .desc{
