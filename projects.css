@@ -85,7 +85,27 @@ body{
 }
 .image{
     flex: 0.3;
-    background-color: aqua;
+    /* background-color: aqua; */
+}
+.image1{
+    flex: 0.3;
+    background-image: url("./Farm.io.jpeg");
+    background-size: cover;
+}
+.image2{
+    flex: 0.3;
+    background-image: url("./Stegno.png");
+    background-size: contain;
+}
+.image3{
+    flex: 0.3;
+    background-image: url("./Heart\ Rate\ Monitor.jpeg");
+    background-size: contain;
+}
+.image4{
+    flex: 0.3;
+    background-image: url("./Fingerprint\ Sensor.jpg");
+    background-size: contain;
 }
 
 .about{
